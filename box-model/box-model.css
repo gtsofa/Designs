@@ -5,8 +5,8 @@
 .box {
   /* width: 47.49%; */
   width: 90%;
-  height: 256px;
-  max-width: 566px;
+  height: 300px;
+  max-width: 600px;
   padding: 20px 20px;
   border: 2px solid #8292b1;
   /* margin: 0 416.500px; */
@@ -30,6 +30,7 @@
 
   
   /* Force border-width and padding values into the total width and height of .box */
+  box-sizing: border-box;
 
   
 }
